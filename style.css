@@ -1,0 +1,23 @@
+h3
+{
+    font-size: large !important;
+}
+
+.btn-info:hover
+{
+    background-color: rgb(148, 13, 148);
+}
+
+canvas
+{
+    animation-name: tripple;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tripple
+{
+    0% { box-shadow: 1px 1px 18px #ff3399; }
+    50% { box-shadow: 1px 1px 18px #ffcc66; }
+    100% { box-shadow: 1px 1px 18px #99ff66; }
+}
